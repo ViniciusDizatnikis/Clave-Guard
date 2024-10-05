@@ -1,83 +1,88 @@
-# Gerador de Senhas
+<h1>Gerador de Senhas</h1>
 
 <p>
-Este projeto é um **Gerador de Senhas** desenvolvido para aprimorar minhas habilidades em HTML, CSS e JavaScript. Durante o processo de desenvolvimento, explorei diversas técnicas e funcionalidades dessas linguagens para criar uma interface intuitiva e responsiva que permite aos usuários gerar e copiar senhas de forma fácil e segura.
+    Este projeto é um Gerador de Senhas desenvolvido para aprimorar minhas habilidades em HTML, CSS e JavaScript. Durante o desenvolvimento, explorei diversas técnicas para criar uma interface intuitiva e responsiva que permite aos usuários gerar e copiar senhas de forma fácil e segura.
 </p>
 
-## Estrutura do Projeto
+<h2>Estrutura do Projeto</h2>
 
-<p>O projeto está estruturado em três principais arquivos:</p>
+<p>O projeto é composto por três arquivos principais:</p>
 
-- **`index.html`**: Estrutura HTML do gerador de senhas.
-- **`styles.css`**: Estilo e aparência visual da página.
-- **`script.js`**: Lógica JavaScript para a geração e manipulação das senhas.
+<ul>
+    <li><strong>index.html</strong>: Estrutura HTML do gerador de senhas.</li>
+    <li><strong>styles.css</strong>: Estilo e aparência visual da página.</li>
+    <li><strong>script.js</strong>: Lógica JavaScript para a geração e manipulação das senhas.</li>
+</ul>
 
-### HTML
+<h3>HTML</h3>
 
-<p>O arquivo HTML (`index.html`) é responsável por definir a estrutura da página, incluindo:</p>
+<p>O arquivo HTML define a estrutura da página, que inclui:</p>
 
-- **Cabeçalho (`<head>`)**: Contém o charset, o meta viewport para responsividade e links para o CSS e fontes do Google.
-- **Corpo (`<body>`)**: Inclui os seguintes componentes principais:
-  - **Logo do Gerador de Senhas**: Imagem representando o logo do gerador.
-  - **Container de Entrada**: Elementos que permitem ao usuário definir o número de caracteres da senha e gerar uma nova senha.
-  - **Container da Senha Gerada**: Área que exibe a senha sugerida, permite copiá-la e exibe uma mensagem de confirmação ao copiar.
-  - **Rodapé (`<footer>`)**: Contém links para redes sociais e direitos autorais.
+<ul>
+    <li><strong>Cabeçalho</strong>: Contém o charset, meta viewport para responsividade, e links para o CSS e fontes.</li>
+    <li><strong>Corpo</strong>: Inclui um container para definir as configurações da senha, um espaço para exibir a senha gerada, e um rodapé com informações de contato e direitos autorais.</li>
+</ul>
 
-### CSS
+<h3>CSS</h3>
 
-<p>O arquivo CSS (`styles.css`) define o estilo visual do projeto, como cores, fontes, layout e animações:</p>
+<p>O CSS é responsável pela aparência da página, incluindo:</p>
 
-- **Estilos Gerais**: Configurações básicas de `padding`, `margin` e `box-sizing` são aplicadas para garantir uma aparência consistente.
-- **Estilo dos Contêineres**: 
-  - O container de entrada e o container da senha gerada foram estilizados para serem flexíveis e responsivos, garantindo uma boa experiência em diferentes dispositivos.
-- **Slider Customizado**: O elemento `<input type="range">` (slider) foi estilizado para melhorar a aparência e usabilidade.
-- **Animações**: Foram utilizadas animações para dar um efeito visual ao copiar a senha e ao exibir a confirmação de senha copiada.
+<ul>
+    <li><strong>Estilos Gerais</strong>: Configurações de espaçamento e layout para garantir consistência visual.</li>
+    <li><strong>Estilo dos Containers</strong>: Elementos estilizados para serem flexíveis e responsivos.</li>
+    <li><strong>Slider Customizado</strong>: Melhorias visuais no elemento de entrada tipo range.</li>
+    <li><strong>Animações</strong>: Efeitos visuais ao copiar a senha e ao exibir a confirmação.</li>
+</ul>
 
-### JavaScript
+<h3>JavaScript</h3>
 
-<p>O JavaScript (`script.js`) é responsável pela lógica de geração de senhas e pela interação com o usuário:</p>
+<p>O JavaScript adiciona funcionalidade à página, incluindo:</p>
 
-- **Geração de Senhas (`generatePassword()`)**: Esta função gera uma senha com base na quantidade de caracteres definida pelo usuário, escolhendo aleatoriamente os caracteres disponíveis no charset.
-- **Cópia da Senha (`copyPassword()`)**: Esta função copia a senha gerada para a área de transferência e exibe uma animação de confirmação.
-- **Controle do Slider**: A quantidade de caracteres selecionada pelo usuário é exibida dinamicamente.
+<ul>
+    <li><strong>Geração de Senhas</strong>: A função <code>generatePassword()</code> cria uma senha com base no número de caracteres selecionado pelo usuário.</li>
+    <li><strong>Cópia da Senha</strong>: A função <code>copyPassword()</code> permite copiar a senha gerada e exibe uma mensagem de confirmação.</li>
+    <li><strong>Controle do Slider</strong>: O JavaScript atualiza dinamicamente o valor selecionado no slider de caracteres.</li>
+</ul>
 
-## Recursos Utilizados
+<h2>Recursos Utilizados</h2>
 
-<p>Este projeto utilizou as seguintes tecnologias e recursos:</p>
+<p>Este projeto utilizou:</p>
 
-- **HTML5**: Estrutura semântica da página.
-- **CSS3**: Estilização avançada com foco em responsividade e animações.
-- **JavaScript**: Manipulação do DOM, geração de senhas aleatórias e interação com o usuário.
+<ul>
+    <li><strong>HTML5</strong>: Estrutura semântica da página.</li>
+    <li><strong>CSS3</strong>: Estilização da interface com foco em responsividade.</li>
+    <li><strong>JavaScript</strong>: Manipulação do DOM e geração de senhas aleatórias.</li>
+</ul>
 
-## Objetivos de Aprendizado
+<h2>Objetivos de Aprendizado</h2>
 
-<p>Os principais objetivos deste projeto foram:</p>
+<p>Os principais objetivos foram:</p>
 
-- Aprimorar minhas habilidades em HTML, CSS e JavaScript.
-- Praticar a manipulação do DOM e o uso de eventos JavaScript.
-- Aprender a criar interfaces responsivas e dinâmicas.
-- Aplicar animações para melhorar a experiência do usuário.
+<ul>
+    <li>Aprimorar habilidades em HTML, CSS e JavaScript.</li>
+    <li>Praticar manipulação do DOM e eventos JavaScript.</li>
+    <li>Criar uma interface responsiva e dinâmica.</li>
+    <li>Aplicar animações para melhorar a experiência do usuário.</li>
+</ul>
 
-## Capturas de Tela
-
-<p>(Adicione aqui capturas de tela do projeto em funcionamento.)</p>
-
-## Como Executar o Projeto
+<h2>Como Executar o Projeto</h2>
 
 <ol>
-  <li>Clone o repositório: <code>git clone &lt;URL do repositório&gt;</code></li>
-  <li>Navegue até a pasta do projeto: <code>cd gerador-de-senhas</code></li>
-  <li>Abra o arquivo <code>index.html</code> em um navegador.</li>
+    <li>Clone o repositório: <code>git clone &lt;URL do repositório&gt;</code></li>
+    <li>Navegue até a pasta do projeto: <code>cd gerador-de-senhas</code></li>
+    <li>Abra o arquivo <code>index.html</code> em um navegador.</li>
 </ol>
 
-## Melhorias Futuras
+<h2>Melhorias Futuras</h2>
 
-<p>Algumas melhorias que podem ser implementadas no futuro:</p>
+<p>Possíveis melhorias para o projeto:</p>
 
-- Adicionar a opção de incluir caracteres especiais, números, letras maiúsculas/minúsculas conforme a preferência do usuário.
-- Implementar validação de força da senha.
-- Melhorar o design para dispositivos móveis.
+<ul>
+    <li>Adicionar opção para incluir caracteres especiais, números, letras maiúsculas e minúsculas.</li>
+    <li>Implementar uma validação de força da senha.</li>
+    <li>Melhorar o design para dispositivos móveis.</li>
+</ul>
 
----
+<hr>
 
 <p>&copy; 2024 Vinicius Dizatnikis. Todos os direitos reservados.</p>
