@@ -67,11 +67,7 @@
 
 <h2>Como Executar o Projeto</h2>
 
-<ol>
-    <li>Clone o repositório: <code>git clone &lt;URL do repositório&gt;</code></li>
-    <li>Navegue até a pasta do projeto: <code>cd gerador-de-senhas</code></li>
-    <li>Abra o arquivo <code>index.html</code> em um navegador.</li>
-</ol>
+<p>Para ver o projeto, basta acessar o link: <a href="https://gerador-de-senhas-six-kappa.vercel.app" target="_blank">Gerador de Senhas</a>.</p>
 
 <h2>Melhorias Futuras</h2>
 
