@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Gerador de senhas, gerador password">
     <link rel="stylesheet" href="styles.css">
-   <link rel="shortcut icon" href="assets/geradorDeSenhasLogo.ico" type="image/x-icon">
-    <title>Gerador De Senhas</title>
+   <link rel="shortcut icon" href="assets/logoImagem.ico" type="image/x-icon">
+    <title>ClaveGuard</title>
 
 
 
@@ -16,10 +16,25 @@
 </head>
 <body>
     <div class="parte1">
-        <img src="assets/Texto.png" alt="gerador de senhas logo">
+        <img src="assets/LogoGeradorDeSenhas.png" alt="gerador de senhas logo">
         <div class="container-input">
             <span>Quantidade <span id="sizePassword"></span> caracteres</span>
             <input type="range" class="slider" id="slider" min="5" max="25" value="15">
+            <div class="options">
+                <label for="maiores">
+                  <input type="checkbox" id="maiores" checked> A-Z
+                </label>
+                <label for="menores">
+                  <input type="checkbox" id="menores" checked> a-z
+                </label>
+                <label for="numeros">
+                  <input type="checkbox" id="numeros" checked> 0-9
+                </label>
+                <label for="especiais">
+                    <input type="checkbox" id="especiais" checked> !@#$%&
+                  </label>
+              </div>
+              
             <button type="submit" id="button" onclick="generatePassword()">Gerar senha</button>
         </div>
 
@@ -28,6 +43,20 @@
             <span id="password" class="password" onclick="copyPassword()"></span>
             <span class="tooltip" id="tooltip"> Precione para copiar</span>
             <img id="checked"   src="assets/check.png" alt="">
+        </div>
+    </div>
+
+    <div class="parte2">
+        <div class="info">
+            <h1>O que é um Gerador de Senhas Aleatórias?</h1>
+            <p>Um gerador de senhas aleatórias é uma ferramenta ou programa usado para criar senhas únicas e difíceis de serem adivinhadas ou quebradas. Essas senhas são formadas de maneira imprevisível, combinando uma série de caracteres como letras (maiúsculas e minúsculas), números e símbolos especiais. O objetivo principal de um gerador de senhas é melhorar a segurança das informações pessoais, reduzindo a possibilidade de ataques de força bruta ou outros tipos de invasões cibernéticas.</p>
+            <h1>Ações necessárias para a segurança de senhas</h1>
+            <h3> Use uma senha diferente para cada site</h3>
+            <p>Reutilizar a mesma senha em várias contas é extremamente arriscado. Se um hacker conseguir descobrir a senha de uma das suas contas, ele poderá acessar todas as outras que utilizam a mesma combinação. Para aumentar sua segurança, é essencial criar senhas aleatórias e exclusivas para cada site. O gerador de senhas integrado do <strong>ClaveGuard</strong> facilita a criação rápida de senhas diretamente no navegador, garantindo que cada senha seja única para cada serviço.</p>
+            <h3> Use um gerador de senhas para criar senhas fortes</h3>
+            <p>Senhas fortes são altamente complexas, difíceis de prever, possuem no mínimo 16 caracteres e evitam o uso de palavras de dicionário, substituições comuns de símbolos (como '@' no lugar de 'a') ou dados pessoais, como datas de aniversário, nomes de pets, amigos ou familiares.</p>
+            <h3> Atualize suas senhas quando necessário</h3>
+            <p>Sempre altere sua senha se houver qualquer suspeita de que ela foi comprometida ou exposta, principalmente após receber notificações sobre uma violação de segurança em um site ou indício de possível invasão. Além disso, é recomendável revisar regularmente suas senhas, mesmo sem sinais aparentes de comprometimento, e adotar autenticação de dois fatores para fortalecer ainda mais a proteção das suas contas.</p>
         </div>
     </div>
     
