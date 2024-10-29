@@ -65,10 +65,6 @@
     <li>Aplicar animações para melhorar a experiência do usuário.</li>
 </ul>
 
-<h2>Como Executar o Projeto</h2>
-
-<p>Para ver o projeto, basta acessar o link: <a href="https://gerador-de-senhas-six-kappa.vercel.app" target="_blank">Gerador de Senhas</a>.</p>
-
 <h2>Melhorias Futuras</h2>
 
 <p>Possíveis melhorias para o projeto:</p>
@@ -78,6 +74,8 @@
     <li>Implementar uma validação de força da senha.</li>
     <li>Melhorar o design para dispositivos móveis.</li>
 </ul>
+
+<p>Você pode acessar o <a href="https://gerador-de-senhas-six-kappa.vercel.app" target="_blank">Gerador de Senhas</a> por aqui!</p>
 
 <hr>
 
